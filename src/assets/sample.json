@@ -1,0 +1,10 @@
+{
+    "list": [
+        { "item": "sample #1", "state": 0 },
+        { "item": "sample #2", "state": 0 },
+        { "item": "sample #3", "state": 0 },
+        { "item": "sample #4", "state": 0 },
+        { "item": "sample #5", "state": 0 },
+        { "item": "sample #6", "state": 0 }
+    ]
+}

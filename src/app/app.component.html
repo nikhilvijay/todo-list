@@ -1,0 +1,4 @@
+<app-calender></app-calender>
+<app-list [data]="todoCollection"></app-list>
+<app-popup *ngIf="showPop" (closePopup)="popupControl($event)" (addItem)="addItem($event)"></app-popup>
+<app-add-button (openPopup)="popupControl($event)"></app-add-button>

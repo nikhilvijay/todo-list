@@ -1,0 +1,7 @@
+<ul>
+    <li *ngFor="let listItem of todoCollection; let index = index" [className]="listItem.state? 'disable':'active'"
+        (click)="changeState(index)">
+        <span class="text">{{listItem.item}}</span>
+        <span></span>
+    </li>
+</ul>

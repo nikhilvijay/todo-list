@@ -1,0 +1,46 @@
+ul {
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+
+    li {
+        height: 50px;
+        width: 100%;
+        border-bottom: 1px solid #d3d3d3;
+        margin: 0 0 5px 0;
+        box-sizing: border-box;
+        font-weight: bold;
+    
+        &:hover {
+            cursor: pointer;
+        }
+    
+        &.disable {
+            opacity: .5;
+            span:last-child {
+                background-color: green;
+            }
+        }
+    
+        &.active {
+            opacity: 1;
+    
+            span:last-child {
+                background-color: grey;
+            }
+        }
+    
+        span:first-child {
+            float: left;
+            line-height: 50px;
+        }
+    
+        span:last-child {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            float: right;
+            margin-top: 12.5px;
+        }
+    }
+}

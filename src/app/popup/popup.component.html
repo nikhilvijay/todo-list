@@ -1,0 +1,8 @@
+<span></span>
+<div class="pop" [formGroup]="newItem">
+    <h1>Add Item</h1>
+    <hr />
+    <input type="text" placeholder="Specify Item" formControlName="itemValue" />
+    <button type="submit" (click)="add()" [disabled]="newItem.invalid">Submit</button>
+    <button type="submit" (click)="close()">Close</button>
+</div>
